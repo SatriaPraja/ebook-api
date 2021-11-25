@@ -9,10 +9,10 @@ class AuthController extends Controller
 {
   public function me() {
     return ['NIS' => 3103119090,
-        'name' => 'Imelda Alfiana Palupi Dewi',
-        'gender' => 'Female',
-        'phone' => '082135374187',
-        'class' => 'XII RPL 3'];
+        'name' => 'Satria Duta Praja',
+        'gender' => 'Male',
+        'phone' => '0812154370727',
+        'class' => 'XII RPL 6'];
   }
   // R E G I S T E R
   public function register(Request $request) {
